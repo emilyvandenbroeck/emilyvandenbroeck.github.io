@@ -1,18 +1,23 @@
 /* make comments within this syntax */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333333;
+  background-color: #ffffff;
+  color: #ffffff;
+  background-image: url('https://cdn.glitch.global/cafa0778-2946-488f-a7c8-3e9eba601052/ice.jpg?v=1746424565036');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: none;
 }
 header {
   text-align: center;
@@ -20,7 +25,7 @@ header {
 }
 header img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 h1 {
   margin: 10px 0 5px;
@@ -28,7 +33,7 @@ h1 {
   margin-bottom: 30px;
 }
 h2 {
-  color: #444444;
+  color: #ffffff;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 5px;
   margin-top: 30px;
@@ -37,7 +42,7 @@ ul {
   padding-left: 20px;
 }
 a {
-  color: #0077cc;
+  color: #E0F2F1;
   text-decoration: none;
 }
 a:hover {
@@ -84,13 +89,13 @@ a:hover {
 }
 .article-title a {
   text-decoration: none;
-  color: #0077cc;
+  color: #ffffff;
 }
 .article-title a:hover {
   text-decoration: underline;
 }
 .journal-name {
-  color: #666666;
+  color: #ffffff;
   font-size: 0.95em;
 }
 
@@ -165,3 +170,10 @@ a:hover {
     .nav-buttons button:hover {
       background-color: #555555;
     }
+
+.circle-header {
+  width: 150px;      /* Adjust as needed */
+  height: 150px;     /* Make width and height equal for a circle */
+  object-fit: cover; /* Ensures the image fills the circle */
+  border-radius: 50%;
+}
