@@ -51,6 +51,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+h1 a:link {
+color: #1B4D3E;
+text-decoration: none;
+}
+
+h1 a:visited {
+  color:  #1B4D3E;
+text-decoration: none;
+}
+
 .contact,
 .socials {
   margin-top: 30px;
